@@ -1,3 +1,5 @@
+[![Build a Docker image](https://github.com/adeslatt/fiberseq-fire-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/adeslatt/fiberseq-fire-docker/actions/workflows/docker-image.yml)[![Build and push a Docker image](https://github.com/adeslatt/fiberseq-fire-docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/adeslatt/fiberseq-fire-docker/actions/workflows/docker-publish.yml)
+
 # fiberseq-fire-docker
 
 [FIRE](https://github.com/fiberseq/FIRE) provides a Snakemake workflow for calling Fiber-seq Inferred Regulatory Elements (FIREs) on single molecules. fiberseq-fire-docker provides Docker files and GitHub Action workflows for building and publishing a Docker image so that FIRE can be used in the [sync-seq](https://github.com/adeslatt/sync-seq) workflow.
